@@ -1,0 +1,1 @@
+var req=function(n){n.fn.scroll=function(){n("html, body").animate({scrollTop:this.offset().top},"slow","swing")}};(function(n){return"function"==typeof define&&define.amd?n(["jQuery"],scroll):n(jQuery)})(req);
