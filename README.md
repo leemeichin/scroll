@@ -7,19 +7,19 @@ Works in Chrome, Opera, Safari, IE8, and Firefox.
 
 - Include the script in your page
 
-```
+```html
 <script src="/path/to/jquery.scroll.min.js"></script>
 ```
 
 - Scroll an element into view like so
 
-```
+```javascript
 $('.element').scroll()
 ```
 
 ### Require.js Usage
 
-```
+```javascript
 define(['jquery', 'jquery.scroll.min'], function($) {
   $('.element').scroll()
 })
