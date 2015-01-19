@@ -17,14 +17,6 @@ Works in Chrome, Opera, Safari, IE8, and Firefox.
 $('.element').scroll()
 ```
 
-### Require.js Usage
-
-```javascript
-define(['jquery', 'jquery.scroll.min'], function($) {
-  $('.element').scroll()
-})
-```
-
 ### Configuration
 
 There is none. The code is a one-line function and is simple to adjust to taste.
